@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+   <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+   <script src="js/scripts.js"></script>
+    <title>Pig-dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Player 1 Tally</h1>
+          <h2 id="player1Tally"></h2>
+        </div>
+        <div class="col-sm-6">
+          <h1>Player 2 Tally</h1>
+          <h2 id="player2Tally"></h2>
+        </div>
+      </div>
+
+      <div class="score">
+        <h2>Score</h2>
+        <h3 id="score"></h3>
+      </div>
+      <div class="dice">
+        <h2>RolledDice</h2>
+        <h4 id="dice"></h4>
+      </div>
+
+      <button type="button" class="btn btn-success" id="roll">Roll Dice</button>
+      <button type="button" class="btn btn-danger" id="pass">Pass Turn</button>
+    </div>
+  </body>
+</html>
